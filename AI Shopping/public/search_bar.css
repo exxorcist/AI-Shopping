@@ -1,0 +1,31 @@
+/*<!------------------for search bar----------------------->*/
+
+.main {
+  margin: auto;
+  width: 50%;
+}
+.main input,
+button {
+  width: 75%;
+  border: 2px solid white;
+  border-top: 0px;
+  font-size: 18px;
+  padding: 12px;
+  background-color: black;
+  color: white;
+}
+.main input:hover {
+  opacity: 0.8;
+}
+.main button {
+  width: 25%;
+  background-color: white;
+  color: black;
+  transition: all 0.3s;
+  float: right;
+
+  border-left: 0px;
+}
+.main button:hover {
+  opacity: 0.8;
+}

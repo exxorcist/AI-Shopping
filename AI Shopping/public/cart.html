@@ -127,38 +127,38 @@
             <tbody>
                 <tr>
                     <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
-                    <td><img src="assets/images/nike2.jpg" ></td>
+                    <td><img src="" id="imgurl1" width=10px></td>
                     <td>
-                        <h5>Nike Shoes</h5>
+                        <h5 id="title1">Nike Shoes</h5>
 
                     </td>
                     <td><h5>$70.00</h5></td>
                     <td><input class="w-25 p1-1" value="1" type="number"></td>
-                    <td><h5>$140.00</h5></td>
+                    <td><h5>$70.00</h5></td>
                     
                 </tr>
                 <tr>
                     <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
-                    <td><img src="assets/images/SM 705.jpg" ></td>
+                    <td><img src="" id="imgurl2" width=10px></td>
                     <td>
-                        <h5>SM 705</h5>
+                        <h5 id="title2">SM 705</h5>
 
                     </td>
                     <td><h5>$100.00</h5></td>
                     <td><input class="w-25 p1-1" value="1" type="number"></td>
-                    <td><h5>$200.00</h5></td>
+                    <td><h5>$100.00</h5></td>
                     
                 </tr>
                 <tr>
                     <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
-                    <td><img src="assets/images/sneakers.jfif" ></td>
+                    <td><img src="" id="imgurl3" width=10px></td>
                     <td>
-                        <h5>Sneakers</h5>
+                        <h5 id="title3">Sneakers</h5>
 
                     </td>
                     <td><h5>$170.00</h5></td>
                     <td><input class="w-25 p1-1" value="1" type="number"></td>
-                    <td><h5>$340.00</h5></td>
+                    <td><h5>$170.00</h5></td>
                     
                 </tr>
             </tbody>
@@ -194,7 +194,7 @@
                         <h6>Total</h6>
                         <p>$240</p>
                     </div>
-                    <button class ="m1-auto">Proceed to Checkout</button>
+                    <button class ="m1-auto"><li><a href="checkout.html">Proceed to Checkout </a></li></button>
                     
                 </div>
             </div>
@@ -246,7 +246,7 @@
         </div>
     </footer>
     
-
+</body>
     <!-- jQuery -->
     <script src="assets/js/jquery-2.1.0.min.js"></script>
 
@@ -285,7 +285,41 @@
             });
         });
 
+        const img1 = String('https://m.media-amazon.com/images/I/51J1rhEfe-S._SX342_PIbundle-6,TopRight,0,0_AA342SH20_.jpg');
+        const image = document.getElementById("imgurl1");
+        console.log('a');
+        console.log(img1);
+        image.src = img1;
+        
+        const t1 = String('Ocean Fruit Water Crispy Apple flavor enriched with vitamins, electrolyte & glucose| 500ml | Pack of 6');
+        const tit1 = document.getElementById("title1");
+        tit1.innerHTML = t1
+
+        const img2 = String('https://m.media-amazon.com/images/I/5107TEfFvML._SX466_PIbundle-60,TopRight,0,0_AA466SH20_.jpg');
+        const image2 = document.getElementById("imgurl2");
+        console.log('a');
+        console.log(img2);
+        image2.src = img2;
+        
+        const t2 = String('Aava Alkaline Natural Mineral Water 1 LTR Cup-Cap | Pack of 60 (Origin Aravalli Hills , 100% Alkaline pH 8.0+ , Benefits of Calcium & Magnesium)');
+        const tit2 = document.getElementById("title2");
+        tit2.innerHTML = t2
+
+        const img3 = String('https://m.media-amazon.com/images/I/71K6kY9x8qL._SX342_PIbundle-6,TopRight,0,0_AA342SH20_.jpg');
+        const image3 = document.getElementById("imgurl3");
+        console.log('a');
+        console.log(img3);
+        image3.src = img3;
+        
+        const t3 = String('Sepoy & Co Indian Tonic Water (Pack of 6 X 200ml) | Low Calorie Flavoured Drink | 100% Natural Ingredients | International Award Winning');
+        const tit3 = document.getElementById("title3");
+        tit3.innerHTML = t3
+
+    
+
     </script>
 
-  </body>
+
 </html>
+
+<script src="https://code.tidio.co/xctnotqyx4zbxog3a7qo80nvbbqyh59g.js" async></script>
